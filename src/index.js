@@ -7,6 +7,9 @@ const Functions = () => {
   };
 
   const reverse = (string) => {
+    string = string.split('');
+    const str = string.reverse();
+    return str.join('');
   };
 
   return { capitalize, reverse };
