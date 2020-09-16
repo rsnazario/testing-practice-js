@@ -11,7 +11,10 @@ const Calculator = () => {
     return a / b;
   }
 
-  return { add, subtract, divide };
+  const multiply = (a, b) => {
+  }
+
+  return { add, subtract, divide, multiply };
 }
 
 export default Calculator;

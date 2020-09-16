@@ -13,3 +13,8 @@ test('Calculator Subtract operation', () => {
 test('Calculator Divide operation', () => {
   expect(calculator.divide(12, 4)).toBe(3);
 });
+
+
+test('Calculator Multiply operation', () => {
+  expect(calculator.multiply(8, 3)).toBe(24);
+});
