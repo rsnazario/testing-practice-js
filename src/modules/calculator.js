@@ -7,7 +7,14 @@ const Calculator = () => {
     return a - b;
   }
 
-  return { add, subtract };
+  const subtract = (a, b) => {
+    return a - b;
+  }
+
+  const divide = (a, b) => {
+  }
+
+  return { add, subtract, divide };
 }
 
 export default Calculator;

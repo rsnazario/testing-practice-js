@@ -9,3 +9,7 @@ test('Calculator Add operation', () => {
 test('Calculator subtract operation', () => {
   expect(calculator.subtract(7, 2)).toBe(5);
 });
+
+test('Calculator subtract operation', () => {
+  expect(calculator.divide(12, 4)).toBe(3);
+});
