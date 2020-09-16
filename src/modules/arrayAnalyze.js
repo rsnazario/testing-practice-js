@@ -1,10 +1,10 @@
 const arrayAnalyze = () => {
   return {
     analyze : (array) => {
-      var bla = {
-        property: 1,
+      var result = {
+        min: Math.min( ...array),
       };
-      return bla;
+      return result;
     }
   }
 };
