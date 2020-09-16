@@ -15,3 +15,7 @@ test('Returns min value', () => {
 test('Returns max value', () => {
   expect( analysis.analyze(testingArray).max).toBe(10);
 });
+
+test('Returns Average Value (natural rounded part only)', () => {
+  expect( analysis.analyze(testingArray).average).toBe(5);
+});
