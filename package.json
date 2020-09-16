@@ -1,0 +1,22 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "First Testing Practice Using Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsnazario/testing-practice-js.git"
+  },
+  "author": "rsnazario / kwizl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsnazario/testing-practice-js/issues"
+  },
+  "homepage": "https://github.com/rsnazario/testing-practice-js#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
