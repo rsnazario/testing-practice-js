@@ -12,6 +12,7 @@ const Calculator = () => {
   }
 
   const multiply = (a, b) => {
+    return a * b;
   }
 
   return { add, subtract, divide, multiply };
