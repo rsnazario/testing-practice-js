@@ -3,6 +3,7 @@ const arrayAnalyze = () => {
     analyze : (array) => {
       var result = {
         min: Math.min( ...array),
+        max: Math.max( ...array)
       };
       return result;
     }

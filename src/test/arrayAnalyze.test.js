@@ -11,3 +11,7 @@ test('Returns an Object', () => {
 test('Returns min value', () => {
   expect( analysis.analyze(testingArray).min).toBe(1);
 });
+
+test('Returns max value', () => {
+  expect( analysis.analyze(testingArray).max).toBe(10);
+});
