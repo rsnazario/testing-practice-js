@@ -19,3 +19,7 @@ test('Returns max value', () => {
 test('Returns Average Value (natural rounded part only)', () => {
   expect( analysis.analyze(testingArray).average).toBe(5);
 });
+
+test('Returns Array Length', () => {
+  expect( analysis.analyze(testingArray).length).toBe(5);
+});

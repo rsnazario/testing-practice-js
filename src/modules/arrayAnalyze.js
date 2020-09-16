@@ -6,6 +6,7 @@ const arrayAnalyze = () => {
         min: Math.min( ...array),
         max: Math.max( ...array),
         average: averageValue,
+        length: array.length
       };
       return result;
     }
