@@ -15,6 +15,10 @@ describe('Testing Caesar Cipher', () => {
     expect(cipher.caesar('"&%932!"', 3)).toBeFalsy();
   });
 
+  test('test if there is punctuation in string', () => {
+    expect(cipher.caesar('a,b', 3)).toBeFalsy();
+  });
+
   test('test if there is a space in string', () => {
     expect(cipher.caesar('a ', 3)).toBeFalsy();
   });

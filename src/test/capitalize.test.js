@@ -1,7 +1,9 @@
-import Capital from '../modules/capitalize';
+import Capital from "../modules/capitalize";
 
-const capital = Capital();
+describe("Testing Capitalize String", () => {
+  const capital = Capital();
 
-test('Capitalize first letter', () => {
-  expect(capital.capitalize('martin')).toEqual('Martin');
+  test("Capitalize first letter", () => {
+    expect(capital.capitalize("martin")).toEqual("Martin");
+  });
 });
