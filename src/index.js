@@ -6,7 +6,10 @@ const Functions = () => {
     return string.join('');
   };
 
-  return { capitalize };
+  const reverse = (string) => {
+  };
+
+  return { capitalize, reverse };
 };
 
 module.exports = {
