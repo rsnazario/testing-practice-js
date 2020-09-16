@@ -7,5 +7,5 @@ test('Calculator Add operation', () => {
 });
 
 test('Calculator subtract operation', () => {
-  expect(calculator.subtract(7, 2)).toBe(6);
+  expect(calculator.subtract(7, 2)).toBe(5);
 });

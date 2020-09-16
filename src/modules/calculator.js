@@ -7,7 +7,7 @@ const Calculator = () => {
     return a - b;
   }
 
-  return { add };
+  return { add, subtract };
 }
 
 export default Calculator;
